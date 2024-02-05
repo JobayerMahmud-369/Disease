@@ -1,0 +1,366 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap');
+body{ 
+    background-color: rgb(196, 244, 255);
+    margin:20px;
+    height:50%;
+    /* background-image: url(img/2023-04-09.jpg); */
+    background-attachment: fixed;
+    background-size: cover;
+}
+.fever{
+    background-color: aqua;
+    height:300px;
+    width:300px;
+    padding:5px;
+    border:10px groove bisque;
+    text-align:center;
+    font-size:20px;
+    font-family: cursive;
+    color:brown;
+    border-radius: 10px;
+ 
+}
+.fever h3{
+    background-color:darkmagenta;
+    font-size: 20px;
+    color:white;
+    border-radius:10px;
+}
+.fever a{
+    text-decoration:none;
+    color:red;
+}
+.fever a:hover{
+    color:white;
+}
+.fever  a:active{
+    color:green;
+    font-size: 30px;
+}
+.disease{
+    color:rgb(247, 247, 248);
+    background:red;
+    font-size:40px;
+    padding:5px;
+    text-align:center;
+    border-radius: 20px;
+    margin:20px;
+    text-shadow: 10px 5px 5px black;
+    border:10px outset rgb(12, 1, 1);
+    font-family: 'Protest Revolution', sans-serif;
+    font-weight:200;
+    font-variant: small-caps;
+}
+.master{
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    justify-content: space-around;
+    align-content: center;
+    flex-shrink: .5; 
+}
+.cough{
+    background-color: bisque;
+    height:300px;
+    width:300px;
+    padding:5px;
+    border:10px groove bisque;
+    text-align:center;
+    font-size:20px;
+    font-family: cursive;
+    color:brown;
+    border-radius:10px;
+    
+}
+.cough a{
+    text-decoration:none;
+    color:red;
+}
+.cough a:hover{
+    color:white;
+}
+.cough  a:active{
+    color:green;
+    font-size: 30px;
+}
+.diarrhea{
+    background-color: rgb(206, 29, 215);
+    height:100%;
+    width:300px;
+    padding:5px;
+    border:10px groove bisque;
+    text-align:center;
+    font-size:20px;
+    font-family: cursive;
+    color:brown;
+    border-radius:10px;
+}
+.diarrhea a{
+    text-decoration:none;
+    color:red;
+}
+.diarrhea a:hover{
+    color:white;
+}
+.diarrhea  a:active{
+    color:green;
+    font-size: 30px;
+}
+.diarrhea h3{
+    background-color:darkmagenta;
+    font-size: 20px;
+    color:white;
+    border-radius:10px;
+}
+.allergi{
+    background-color:rgb(88, 10, 206);
+    height:300px;
+    width:300px;
+    padding:5px;
+    border:10px groove bisque;
+    text-align:center;
+    font-size:20px;
+    font-family: cursive;
+    color:rgb(16, 1, 1);
+    border-radius:10px;
+}
+
+.allergi a{
+    text-decoration:none;
+    color:red;
+}
+.allergi a:hover{
+    color:white;
+}
+.allergi  a:active{
+    color:green;
+    font-size: 30px;
+
+}
+.allergi h3{
+    background-color:darkmagenta;
+    font-size: 20px;
+    color:white;
+    border-radius:10px;
+}
+
+.cough h3{
+    background-color:darkmagenta;
+    font-size: 20px;
+    color:white;
+    border-radius:10px;
+}
+
+
+.gastric{
+    background-color: rgb(203, 235, 19);
+    height:300px;
+    width:300px;
+    padding:5px;
+    border:10px groove bisque;
+    text-align:center;
+    font-size:20px;
+    font-family: cursive;
+    color:brown;
+    border-radius:10px;
+    
+}
+.gastric h3{
+    background-color:darkmagenta;
+    font-size: 20px;
+    color:white;
+    border-radius:10px;
+}
+.gastric a{
+    text-decoration: none;
+    color:red;
+}
+.gastric a:hover{
+    color:white;
+}
+.gastric  a:active{
+    color:green;
+    font-size: 30px;
+}
+.acute{
+    background-color: rgb(19, 152, 235);
+    height:300px;
+    width:300px;
+    padding:5px;
+    border:10px groove bisque;
+    text-align:center;
+    font-size:20px;
+    font-family: cursive;
+    color:brown;
+    border-radius:10px;
+    
+}
+.acute h3{
+    background-color:darkmagenta;
+    font-size: 20px;
+    color:white;
+    border-radius:10px;
+}
+.acute a{
+    text-decoration: none;
+    color:red;
+}
+.acute a:hover{
+    color:white;
+}
+.acute  a:active{
+    color:green;
+    font-size: 30px;
+}
+.joint{
+    background-color:thistle;
+    height:300px;
+    width:300px;
+    padding:5px;
+    border:10px groove bisque;
+    text-align:center;
+    font-size:20px;
+    font-family: cursive;
+    color:brown;
+    border-radius:10px;
+}
+.joint h3{
+    color:white;
+    background-color: darkmagenta;
+    font-size:25px;
+    border-radius:10px;
+}
+.joint a{
+    text-decoration: none;
+    color:red;
+}
+.joint a:hover{
+    color:white;
+
+}
+.joint a:active{
+    color:green;
+    font-size: 30px;
+}
+.scabies{
+    background-color:lightskyblue;
+    height:300px;
+    width:300px;
+    padding:5px;
+    text-align:center;
+    font-size:20px;
+    font-family:cursive;
+    color:brown;
+    border-radius:10px;
+    border:10px groove bisque;
+}
+.scabies h3{
+    color:white;
+    background-color: darkmagenta;
+    font-size:25px;
+    border-radius:10px;
+
+}
+.scabies a{
+    text-decoration: none;
+    color:red;
+}
+.scabies a:hover{
+    color:white;
+}
+.scabies a:active{
+    color:green;
+    font-size: 30px;
+}
+.typhoid{
+    background-color:rgb(21, 235, 247);
+    height:300px;
+    width:300px;
+    padding:5px;
+    text-align:center;
+    font-size:20px;
+    font-family:cursive;
+    color:brown;
+    border-radius:10px;
+    border:10px groove bisque;
+}
+   
+
+.typhoid h3{
+    color:white;
+    background-color: darkmagenta;
+    font-size:25px;
+    border-radius:10px;
+
+}
+.typhoid a{
+    text-decoration: none;
+    color:red;
+}
+.typhoid a:hover{
+    color:white;
+}
+.typhoid a:active{
+    color:green;
+    font-size: 30px;
+}
+.head{
+    background-color:rgb(227, 209, 9);
+    height:300px;
+    width:300px;
+    padding:5px;
+    text-align:center;
+    font-size:20px;
+    font-family:cursive;
+    color:brown;
+    border-radius:10px;
+    border:10px groove bisque;
+}
+.head h3{
+    color:white;
+    background-color: darkmagenta;
+    font-size:25px;
+    border-radius:10px;
+ 
+}
+.head a{
+    text-decoration: none;
+    color:red;
+}
+.head a:hover{
+    color:white;
+}
+.head a:active{
+    color:green;
+    font-size: 30px;
+}
+.sore{
+    background-color:#191970;;
+    height:300px;
+    width:300px;
+    padding:5px;
+    text-align:center;
+    font-size:20px;
+    font-family:cursive;
+    color:brown;
+    border-radius:10px;
+    border:10px groove bisque; 
+}
+.sore h3{
+    color:white;
+    background-color: darkmagenta;
+    font-size:25px;
+    border-radius:10px; 
+}
+.sore a{
+    text-decoration: none;
+    color:red;
+}
+.sore a:hover{
+    color:white;
+}
+.sore a:active{
+    color:green;
+    font-size: 30px;
+}
