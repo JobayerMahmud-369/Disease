@@ -18,6 +18,7 @@ body{
     font-family: cursive;
     color:brown;
     border-radius: 10px;
+    box-shadow:5px 5px 5px black;
  
 }
 .fever h3{
@@ -50,6 +51,7 @@ body{
     font-family: 'Protest Revolution', sans-serif;
     font-weight:200;
     font-variant: small-caps;
+    box-shadow: 10px 5px 5px rgb(238, 242, 5);
 }
 .master{
     display:flex;
@@ -71,6 +73,7 @@ body{
     font-family: cursive;
     color:brown;
     border-radius:10px;
+    box-shadow:5px 5px 5px black;
     
 }
 .cough a{
@@ -95,6 +98,7 @@ body{
     font-family: cursive;
     color:brown;
     border-radius:10px;
+    box-shadow:5px 5px 5px black;
 }
 .diarrhea a{
     text-decoration:none;
@@ -124,6 +128,7 @@ body{
     font-family: cursive;
     color:rgb(16, 1, 1);
     border-radius:10px;
+    box-shadow:5px 5px 5px black;
 }
 
 .allergi a{
@@ -164,6 +169,7 @@ body{
     font-family: cursive;
     color:brown;
     border-radius:10px;
+    box-shadow:5px 5px 5px black;
     
 }
 .gastric h3{
@@ -194,6 +200,7 @@ body{
     font-family: cursive;
     color:brown;
     border-radius:10px;
+    box-shadow:5px 5px 5px black;
     
 }
 .acute h3{
@@ -224,6 +231,7 @@ body{
     font-family: cursive;
     color:brown;
     border-radius:10px;
+    box-shadow:5px 5px 5px black;
 }
 .joint h3{
     color:white;
@@ -254,6 +262,7 @@ body{
     color:brown;
     border-radius:10px;
     border:10px groove bisque;
+    box-shadow:5px 5px 5px black;
 }
 .scabies h3{
     color:white;
@@ -284,6 +293,7 @@ body{
     color:brown;
     border-radius:10px;
     border:10px groove bisque;
+    box-shadow:5px 5px 5px black;
 }
    
 
@@ -316,6 +326,7 @@ body{
     color:brown;
     border-radius:10px;
     border:10px groove bisque;
+    box-shadow:5px 5px 5px black;
 }
 .head h3{
     color:white;
@@ -346,6 +357,7 @@ body{
     color:brown;
     border-radius:10px;
     border:10px groove bisque; 
+    box-shadow:5px 5px 5px black;
 }
 .sore h3{
     color:white;
@@ -363,4 +375,50 @@ body{
 .sore a:active{
     color:green;
     font-size: 30px;
+}
+.doctor h3{
+    background-color: black;
+    font-size: 35px;
+    font-family:'Protest Revolution', sans-serif;
+    border:5px solid rgb(121, 30, 30);
+    border-radius:20px;
+    padding:10px;
+    text-shadow: 10px 5px 5px aqua;
+    text-align: center;
+    color:white;
+    box-shadow: 7px 4px 4px red ;
+    transition: .3s;
+}
+.doctor h3:hover{
+    filter:brightness(200%);
+    transform:scale(1.04) rotate(2deg);
+}
+.table{
+    border:2px solid rgb(217, 13, 13);
+    overflow-x: auto;
+ 
+}
+.table th,td{
+    border:2px solid gray;
+    padding:5px 10px;
+    width:100%;
+    border-collapse: collapse;
+}
+th{
+    background-color:blueviolet;
+    font-size:20px;
+    color:white;
+}
+td{
+    background-color: rgb(60, 243, 28);
+    height:30px;
+
+}
+tr:hover th{
+    background-color:red ;
+    transition: .5s;
+}
+tr:hover td{
+    background-color: fuchsia;
+    transition: .5s;
 }
