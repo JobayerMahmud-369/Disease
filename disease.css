@@ -7,6 +7,35 @@ body{
     background-attachment: fixed;
     background-size: cover;
 }
+.disease{
+    color:rgb(247, 247, 248);
+    background:linear-gradient(red, pink,blue);
+    font-size:30px;
+    padding:5px;
+    text-align:center;
+    border-radius: 20px;
+    margin:20px;
+    text-shadow: 10px 5px 5px black;
+    border:10px outset rgb(12, 1, 1);
+    font-family: 'Protest Revolution', sans-serif;
+    font-weight:200;
+    font-variant: small-caps;
+    box-shadow: 10px 5px 5px rgb(238, 242, 5);
+    transition: 1s;
+}
+.disease:hover{
+    font-size: 40px;
+}
+.master{
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    justify-content: space-around;
+    align-items: center;
+    flex-shrink: .5; 
+}
+
 .fever{
     background-color: aqua;
     height:300px;
@@ -39,35 +68,8 @@ body{
     color:green;
     font-size: 30px;
 }
-.disease{
-    color:rgb(247, 247, 248);
-    background:linear-gradient(red, pink,blue);
-    font-size:30px;
-    padding:5px;
-    text-align:center;
-    border-radius: 20px;
-    margin:20px;
-    text-shadow: 10px 5px 5px black;
-    border:10px outset rgb(12, 1, 1);
-    font-family: 'Protest Revolution', sans-serif;
-    font-weight:200;
-    font-variant: small-caps;
-    box-shadow: 10px 5px 5px rgb(238, 242, 5);
-    transition: 1s;
-}
-.disease:hover{
-    font-size: 40px;
- 
-}
-.master{
-    display:flex;
-    flex-direction:row;
-    flex-wrap: wrap;
-    flex-grow: 1;
-    justify-content: space-around;
-    align-content: center;
-    flex-shrink: .5; 
-}
+
+
 .cough{
     background-color: bisque;
     height:300px;

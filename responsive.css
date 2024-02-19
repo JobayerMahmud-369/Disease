@@ -1,0 +1,28 @@
+@media screen and (max-width:420px) {
+    .disease{
+        color:rgb(247, 247, 248);
+        background:linear-gradient(red, pink,blue);
+        font-size:30px;
+        padding:5px;
+        text-align:center;
+        border-radius: 20px;
+        margin:20px;
+        text-shadow: 10px 5px 5px black;
+        border:10px outset rgb(12, 1, 1);
+        font-family: 'Protest Revolution', sans-serif;
+        font-weight:200;
+        font-variant: small-caps;
+        box-shadow: 10px 5px 5px rgb(238, 242, 5);
+        transition: 1s;
+    }
+    .master{
+        width:100%;
+    }
+    .diarrhea{
+        color:white;
+    }
+    .table{
+        width:100%;
+        border-radius: 10px;
+    }
+}
