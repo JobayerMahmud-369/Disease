@@ -17,6 +17,7 @@
     }
     .master{
         width:100%;
+        font-family: 'Times New Roman', Times, serif;
     }
     .diarrhea{
         color:white;
@@ -25,4 +26,8 @@
         width:100%;
         border-radius: 10px;
     }
+    .allergi{
+        color:white;
+    }
+   
 }
